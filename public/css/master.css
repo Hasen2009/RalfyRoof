@@ -266,8 +266,10 @@ footer .contacts ul li {
 footer .contacts ul li i {
     font-size: 30px;
     width: 40px;
+    color: #494949;
 }
 footer .contacts ul li  span {
     margin-left: 10px;
     font-size: 18px;
+    color: #fff;
 }
