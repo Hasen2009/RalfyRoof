@@ -91,7 +91,9 @@ nav {
     background: #ffffff;
     z-index: 2;
 }
-
+nav .links {
+    display: none;
+}
 nav #logo, nav #bars {
     height: 30px;
 }
@@ -317,6 +319,7 @@ footer .contacts ul li span {
 }
 
 @media (min-width: 768px) {
+
     .features .feature i {
         transform: translateY(50%);
     }
@@ -354,6 +357,7 @@ footer .contacts ul li span {
 
     nav .links {
         list-style: none;
+        display: block;
     }
 
     nav .links li {
