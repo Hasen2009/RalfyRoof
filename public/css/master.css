@@ -3,31 +3,37 @@
     font-family: 'Lato';
     src: url("../fonts/Lato-Regular.ttf");
 }
+
 @font-face {
     font-family: 'Lato Light';
     src: url("../fonts/Lato-Light.ttf");
 }
+
 @font-face {
     font-family: 'Lato Bold';
     src: url("../fonts/Lato-Bold.ttf");
 }
+
 @font-face {
     font-family: 'Lato Black';
     src: url("../fonts/Lato-Black.ttf");
 }
 
-body , html {
+body, html {
     font-family: 'Lato';
     position: relative;
     transition: all .3s ease-in-out;
 }
+
 .nav-reveal {
     cursor: pointer;
 }
+
 /*loader*/
 .noflow {
     overflow: hidden;
 }
+
 .loader {
     position: fixed;
     top: 0;
@@ -37,23 +43,27 @@ body , html {
     background: #25e1b7;
     z-index: 4;
 }
+
 .bars {
     text-align: center;
     padding-top: 300px;
 }
+
 .bar {
     width: 1px;
     height: 40px;
-    border-right: 15px solid #fff ;
+    border-right: 15px solid #fff;
     margin: auto;
     margin-right: 20px;
     display: inline-block;
-    transition:all .3s ease-in-out;
+    transition: all .3s ease-in-out;
     animation: changeHeight 1s infinite reverse;
 }
+
 .sec {
     animation-delay: .1s;
 }
+
 .rd {
     animation-delay: .2s;
 }
@@ -69,6 +79,7 @@ body , html {
         height: 40px;
     }
 }
+
 /*navbar*/
 nav {
     padding-top: 10px;
@@ -80,60 +91,71 @@ nav {
     background: #ffffff;
     z-index: 2;
 }
-nav #logo,nav #bars {
+
+nav #logo, nav #bars {
     height: 30px;
 }
+
 nav #bars {
     float: right;
 }
+
 #hide {
     position: fixed;
     top: 0;
     height: 100%;
     width: 100%;
-    z-index:3;
+    z-index: 3;
     background: white;
     transition: all .3s ease-in-out;
     display: none;
 }
+
 #hide i {
     font-size: 40px;
     margin: 20px;
     cursor: pointer;
 }
+
 #hide ul {
     margin-top: 20px;
     list-style: none;
     text-align: center;
     padding-left: 0;
 }
+
 #hide ul li {
     margin-top: 50px;
     font-size: 40px;
     font-family: "Lato Bold";
 }
+
 #hide ul li a {
     text-decoration: none;
-    color:#25e1b7;
+    color: #25e1b7;
 }
 
-    /*header*/
+/*header*/
 header {
     padding-top: 150px;
     padding-bottom: 100px;
 }
+
 header h1 {
     font-size: 55px;
     margin-bottom: 20px;
 }
-header p,.features .feature p,.member p {
+
+header p, .features .feature p, .member p {
     font-size: 15px;
     color: #989898;
 }
-header p{
+
+header p {
     margin-bottom: 50px;
     padding-right: 90px;
 }
+
 header button {
     text-align: center;
     margin: auto;
@@ -146,6 +168,7 @@ header button {
     font-size: 24px;
     font-weight: bold;
 }
+
 /*features*/
 .title {
     font-weight: bold;
@@ -163,10 +186,12 @@ header button {
     text-align: center;
     padding: 30px 40px;
 }
+
 .features .feature i {
     font-size: 90px;
-    color:#25e1b7 ;
+    color: #25e1b7;
 }
+
 .features .feature h3 {
     text-align: center;
     margin: 25px auto;
@@ -176,6 +201,7 @@ header button {
 .member {
     text-align: center;
 }
+
 .member h3 {
     border-bottom: 1px solid #25e1b7;
     width: 200px;
@@ -183,22 +209,27 @@ header button {
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
+
 .member img {
     margin-bottom: 30px;
     margin-top: 40px;
 }
+
 /*projects*/
-.project,.partners {
+.project, .partners {
     margin: 30px auto;
 }
+
 .project .img-holder {
     position: relative;
     width: 80%;
     margin: auto;
 }
+
 .project .img-holder img {
-    max-width: 100%;
+    width: 100%;
 }
+
 .project .img-holder .overlay {
     position: absolute;
     height: 100%;
@@ -208,10 +239,11 @@ header button {
     padding-left: 10px;
     padding-top: 55%;
     z-index: 1;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
 }
-.project .img-holder .overlay  button {
+
+.project .img-holder .overlay button {
     right: -35px;
     text-align: center;
     padding: 5px 25px;
@@ -224,7 +256,10 @@ header button {
 }
 
 /*partners*/
-.partners {text-align: center}
+.partners {
+    text-align: center
+}
+
 .partners img {
     height: 150px;
     max-width: 100%;
@@ -240,36 +275,104 @@ footer {
     color: #ffffff;
     overflow: hidden;
 }
+
 footer .social i {
     font-size: 40px;
     margin: 10px;
 }
+
 footer .links ul {
     padding: 30px;
     list-style: none;
 }
+
 footer .contacts ul {
     padding-left: 0;
     list-style: none;
     margin: auto;
 }
+
 footer .links ul li {
     list-style: none;
     font-size: 18px;
     margin-bottom: 10px;
 }
+
 footer .contacts ul li {
     margin-bottom: 15px;
     text-align: left;
-    transform: translate(15%,0);
+    transform: translate(15%, 0);
 }
+
 footer .contacts ul li i {
     font-size: 30px;
     width: 40px;
     color: #494949;
 }
-footer .contacts ul li  span {
+
+footer .contacts ul li span {
     margin-left: 10px;
     font-size: 18px;
     color: #fff;
+}
+
+@media (min-width: 768px) {
+    .features .feature i {
+        transform: translateY(50%);
+    }
+    .title {
+        margin-top: 100px;
+    }
+    .member img {
+        max-width: 100%;
+        height: 300px;
+    }
+    footer {
+        margin-top: 120px;
+    }
+    footer .social i {
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    footer .contacts {
+        margin-top: 30px;
+    }
+    footer .contacts ul li {
+        margin-bottom: 20px;
+    }
+    footer .contacts ul li span {
+        transform: translateY(-50%);
+    }
+}
+
+@media (min-width: 1024px) {
+    nav .nav-reveal {
+        display: none;
+    }
+
+    nav .links {
+        list-style: none;
+    }
+
+    nav .links li {
+        display: inline-block;
+        float: right;
+        margin-left: 50px;
+        transition: all .3s ease-in-out;
+    }
+
+    nav .links a {
+        color: #25e1b7 !important;
+        padding-bottom: 10px;
+    }
+    nav .links a.active {
+        border-bottom: 1px solid #cccccc;
+        text-decoration: none;
+    }
+    nav .links li:hover a {
+        border-bottom: 1px solid #cccccc;
+        text-decoration: none;
+    }
 }
